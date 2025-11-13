@@ -72,3 +72,35 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Ignore Unreal Engine user-specific files
+Saved/
+Intermediate/
+DerivedDataCache/
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Build output
+Binaries/
+Build/
+*.target
+*.VC.db
+*.VC.opendb
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Unreal autosaves
+*.tmp
+Autosaves/
+Backup/
+
+# Plugins Intermediate
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
